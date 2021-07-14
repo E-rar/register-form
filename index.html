@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   
+    <form action="">
+        <fieldset>
+        <legend>Register Form</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="Name" id="" placeholder="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Surname">Surname</label>
+                </td>
+                <td>
+                    <input type="text" name="Surname" id="" placeholder="Surname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="male">Female</label>
+                    <input type="radio" name="gender" id="diverse" value="diverse">
+                    <label for="male">Diverse</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Image">Image</label>
+                </td>
+                <td>
+                    <input type="file" name="image" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Country">Country</label>
+                </td>
+                <td>
+                    <select name="Country" id="">
+                        <option value="Country">Germany</option>
+                        <option value="Country">France</option>
+                        <option value="Country">England</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Activity">Preferred languages</label>
+                </td>
+                <td>
+                    <select name="Activity" id="" size="4" multiple>
+                        <option value="Activity">css</option>
+                        <option value="Activity">html</option>
+                        <option value="Activity">js</option>
+                        <option value="Activity">react</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fielded">Fielded Activity</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="IT" id="">
+                    <label for="IT">IT</label>
+                    <input type="checkbox" name="Design" id="">
+                    <label for="Design">Design</label>
+                    <input type="checkbox" name="Other" id="">
+                    <label for="Other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="button" type="submit" value="Submit">
+                    <input class="button" type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+   
+    
+</body>
+</html>
